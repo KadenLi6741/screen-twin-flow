@@ -49,13 +49,16 @@ const slides = [
 ];
 
 const trending = [
-  { img: track1, title: "30 Days", artist: "Raq baby" },
-  { img: track2, title: "Obsession", artist: "ZOIG" },
-  { img: track3, title: "Brackish", artist: "Of The Trees, Tape B" },
-  { img: track4, title: "What's Luv?", artist: "iskey+" },
-  { img: track5, title: "EAZY MF FINGER w/ Richar…", artist: "EAZYBAKED, Richard Finger" },
-  { img: track6, title: "Outlaw", artist: "GRiZ" },
-  { img: track7, title: "Nightcurrent", artist: "Halverune" },
+  { img: track1, title: "Ana Pastry", artist: "26 Church St S" },
+  { img: track2, title: "Aneal's Taste of the Islands", artist: "10220 Yonge St" },
+  { img: track3, title: "Advanced Printing", artist: "10330 Yonge St" },
+  { img: track4, title: "Align Health & Wellness", artist: "22 Richmond St" },
+  { img: track5, title: "Acuvega Wellness Center", artist: "207-22 Richmond St" },
+  { img: track6, title: "Arnold Crescent Animal Hospital", artist: "26 Arnold Cres" },
+  { img: track7, title: "Empire Fadez", artist: "13085 Yonge St" },
+  { img: track1, title: "On The Dance Floor Creative Designs Inc.", artist: "10235 Yonge St" },
+  { img: track2, title: "C17media", artist: "30 West Beaver Creek Rd Unit 12" },
+  { img: track3, title: "Caliber Environmental Construction Services Inc.", artist: "636 Edward Ave Building B, Unit 7" },
 ];
 
 function Index() {
