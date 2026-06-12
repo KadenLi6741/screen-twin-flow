@@ -13,6 +13,7 @@ import bizAdvancedPrinting from "@/assets/biz-advanced-printing.png.asset.json";
 import bizAlign from "@/assets/biz-align.png.asset.json";
 import bizAcuvega from "@/assets/biz-acuvega.png.asset.json";
 import bizArnold from "@/assets/biz-arnold.png.asset.json";
+import qrCode from "@/assets/qr-code.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -242,8 +243,8 @@ function Index() {
             NEVER STOP<br />DISCOVERING
           </h2>
           <div className="mt-8 flex items-center gap-5">
-            <div className="grid h-28 w-28 place-items-center rounded-md bg-primary p-2">
-              <QrPlaceholder />
+            <div className="grid h-28 w-28 place-items-center rounded-md bg-white p-1.5">
+              <img src={qrCode.url} alt="Scan QR code" className="h-full w-full object-contain" />
             </div>
             <p className="max-w-xs text-sm text-muted-foreground">
               Scan to grab the app. Unlimited discounts, new places, your choice — wherever you go.
