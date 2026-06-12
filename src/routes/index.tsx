@@ -2,9 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Search, Upload, Play, X, Twitter, Music2, Youtube, Facebook, Instagram, Cloud } from "lucide-react";
-import hero1 from "@/assets/hero-1.jpg";
-import hero2 from "@/assets/hero-2.jpg";
-import hero3 from "@/assets/hero-3.jpg";
+import hero1 from "@/assets/hero-food.png.asset.json";
+import hero2 from "@/assets/hero-restaurant.png.asset.json";
+import hero3 from "@/assets/hero-flowers.png.asset.json";
 import creator from "@/assets/creator.jpg";
 import listening from "@/assets/listening.png";
 import bizAnaPastry from "@/assets/biz-ana-pastry.png.asset.json";
@@ -28,19 +28,19 @@ export const Route = createFileRoute("/")({
 
 const slides = [
   {
-    image: hero1,
+    image: hero1.url,
     title: ["DISCOVER LOCAL.", "SUPPORT LOCAL."],
     artist: "IDEMI",
     role: "Ascending Artist",
   },
   {
-    image: hero2,
+    image: hero2.url,
     title: ["DISCOVER LOCAL.", "SUPPORT LOCAL."],
     artist: "NOXWAVE",
     role: "Live Set",
   },
   {
-    image: hero3,
+    image: hero3.url,
     title: ["DISCOVER LOCAL.", "SUPPORT LOCAL."],
     artist: "MIRA LOW",
     role: "New Demo",
