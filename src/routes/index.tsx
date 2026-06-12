@@ -157,7 +157,7 @@ function Index() {
               </motion.div>
             </AnimatePresence>
 
-            <div className="flex items-end justify-between">
+            <div className="relative flex items-end justify-center">
               <div className="flex items-center gap-2">
                 {slides.map((_, i) => (
                   <button
@@ -175,7 +175,7 @@ function Index() {
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0 }}
                   transition={{ delay: 0.5 }}
-                  className="text-right text-primary"
+                  className="absolute right-0 bottom-0 text-right text-primary"
                 >
                   <div className="font-display text-lg tracking-wide">{current.artist}</div>
                   <div className="text-xs text-primary/70">{current.role}</div>
