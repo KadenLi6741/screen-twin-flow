@@ -30,19 +30,19 @@ export const Route = createFileRoute("/")({
 const slides = [
   {
     image: hero1,
-    title: ["Every scene", "lives here."],
+    title: ["DISCOVER LOCAL.", "SUPPORT LOCAL."],
     artist: "IDEMI",
     role: "Ascending Artist",
   },
   {
     image: hero2,
-    title: ["Turn it up", "after dark."],
+    title: ["DISCOVER LOCAL.", "SUPPORT LOCAL."],
     artist: "NOXWAVE",
     role: "Live Set",
   },
   {
     image: hero3,
-    title: ["Raw takes,", "first listens."],
+    title: ["DISCOVER LOCAL.", "SUPPORT LOCAL."],
     artist: "MIRA LOW",
     role: "New Demo",
   },
