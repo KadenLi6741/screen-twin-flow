@@ -42,8 +42,8 @@ const slides = [
   {
     image: hero3.url,
     title: ["DISCOVER LOCAL.", "SUPPORT LOCAL."],
-    artist: "MIRA LOW",
-    role: "New Demo",
+    artist: "Dream Rose Florist",
+    role: "14 Levendale Rd, Richmond Hill",
   },
 ];
 
