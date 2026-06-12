@@ -185,19 +185,21 @@ function Index() {
       </section>
 
       {/* Search */}
-      <section className="mx-auto mt-16 max-w-2xl px-6 text-center">
-        <div className="relative">
-          <Search className="pointer-events-none absolute left-5 top-1/2 -translate-y-1/2 text-muted-foreground" size={18} />
-          <input
-            type="search"
-            placeholder="Search for businesses, restaurants, services, deals"
-            className="h-12 w-full rounded-full bg-muted pl-12 pr-5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/60"
-          />
+      <section className="mt-16 bg-black px-6 py-14 text-center">
+        <div className="mx-auto max-w-2xl">
+          <div className="relative">
+            <Search className="pointer-events-none absolute left-5 top-1/2 -translate-y-1/2 text-white/50" size={18} />
+            <input
+              type="search"
+              placeholder="Search for businesses, restaurants, services, deals"
+              className="h-14 w-full rounded-full bg-white/10 pl-12 pr-5 text-base text-white placeholder:text-white/50 focus:outline-none focus:ring-2 focus:ring-white/30"
+            />
+          </div>
+          <div className="mt-6 text-sm font-semibold text-white">or</div>
+          <button className="mt-4 inline-flex items-center gap-2 rounded-full bg-white px-7 py-3 text-sm font-semibold text-black transition hover:scale-[1.02]">
+            <Upload size={16} /> Upload your own
+          </button>
         </div>
-        <div className="mt-5 text-sm text-muted-foreground">or</div>
-        <button className="mt-4 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground transition hover:scale-[1.02]">
-          <Upload size={16} /> Upload your own
-        </button>
       </section>
 
       {/* Trending — sliding right-to-left */}
