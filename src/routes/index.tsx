@@ -99,7 +99,7 @@ function Index() {
 
       {/* Hero */}
       <section className="px-3 pt-3">
-        <div className="relative overflow-hidden rounded-2xl bg-card">
+        <div className="relative overflow-hidden rounded-[2.5rem] bg-card">
           <AnimatePresence mode="sync">
             <motion.div
               key={slide}
