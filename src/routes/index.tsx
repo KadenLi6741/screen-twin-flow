@@ -190,7 +190,7 @@ function Index() {
           <Search className="pointer-events-none absolute left-5 top-1/2 -translate-y-1/2 text-muted-foreground" size={18} />
           <input
             type="search"
-            placeholder="Search for artists, bands, tracks, podcasts"
+            placeholder="Search for businesses, restaurants, services, deals"
             className="h-12 w-full rounded-full bg-muted pl-12 pr-5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/60"
           />
         </div>
