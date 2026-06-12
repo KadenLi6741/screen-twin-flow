@@ -6,7 +6,7 @@ import hero1 from "@/assets/hero-food.png.asset.json";
 import hero2 from "@/assets/hero-restaurant.png.asset.json";
 import hero3 from "@/assets/hero-flowers.png.asset.json";
 import creator from "@/assets/creator.jpg";
-import listening from "@/assets/listening.png";
+import listening from "@/assets/listening-restaurant.png.asset.json";
 import bizAnaPastry from "@/assets/biz-ana-pastry.png.asset.json";
 import bizAneals from "@/assets/biz-aneals.png.asset.json";
 import bizAdvancedPrinting from "@/assets/biz-advanced-printing.png.asset.json";
@@ -258,7 +258,7 @@ function Index() {
           transition={{ duration: 0.9, ease: "easeOut" }}
           className="flex justify-center"
         >
-          <img src={listening} alt="Headphones, phone, piano keys collage" loading="lazy" className="w-full max-w-md" />
+          <img src={listening.url} alt="Restaurant interior" loading="lazy" className="w-full max-w-md rounded-lg" />
         </motion.div>
       </section>
 
