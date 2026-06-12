@@ -30,14 +30,14 @@ const slides = [
   {
     image: hero1.url,
     title: ["DISCOVER LOCAL.", "SUPPORT LOCAL."],
-    artist: "IDEMI",
-    role: "Ascending Artist",
+    artist: "Pho Shop",
+    role: "5051 Yonge St Unit #2",
   },
   {
     image: hero2.url,
     title: ["DISCOVER LOCAL.", "SUPPORT LOCAL."],
-    artist: "NOXWAVE",
-    role: "Live Set",
+    artist: "Andy's Pho",
+    role: "5051 Yonge St Unit #2",
   },
   {
     image: hero3.url,
