@@ -83,7 +83,7 @@ function Index() {
             <div className="relative flex items-center justify-center gap-2 px-4 py-2.5 text-sm">
               <span className="text-accent">◆</span>
               <span className="font-semibold">Now available:</span>
-              <span className="text-muted-foreground">Get heard by up to 100 listeners on your next upload with Artist or Artist Pro.</span>
+              <span className="text-muted-foreground">Trusted By over 1000+ business&nbsp;</span>
               <a href="#" className="font-semibold underline-offset-4 hover:underline">Learn More</a>
               <button
                 onClick={() => setBanner(false)}
@@ -124,12 +124,12 @@ function Index() {
           <div className="relative z-10 flex items-center justify-between px-6 py-5 sm:px-10">
             <a href="#" className="flex items-center gap-2 text-primary">
               <Cloud className="h-7 w-7 fill-primary" strokeWidth={1.5} />
-              <span className="font-display text-xl tracking-wide">SOUNDWAVE</span>
+              <span className="font-display text-xl tracking-wide">Localy</span>
             </a>
             <nav className="flex items-center gap-2 text-sm font-medium">
               <button className="rounded-full bg-primary px-5 py-2 text-primary-foreground transition hover:bg-primary/90">Sign in</button>
               <button className="rounded-full bg-black px-5 py-2 text-primary ring-1 ring-white/20 transition hover:bg-white/10">Create account</button>
-              <a href="#" className="hidden px-3 text-primary/80 hover:text-primary sm:inline">For artists</a>
+              <a href="#" className="hidden px-3 text-primary/80 hover:text-primary sm:inline">For Small Buisnesses</a>
             </nav>
           </div>
 
