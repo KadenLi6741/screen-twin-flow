@@ -6,7 +6,7 @@ import hero1 from "@/assets/hero-food.png.asset.json";
 import hero2 from "@/assets/hero-restaurant.png.asset.json";
 import hero3 from "@/assets/hero-flowers.png.asset.json";
 import creator from "@/assets/creator.jpg";
-import listening from "@/assets/listening-restaurant.png.asset.json";
+import listening from "@/assets/listening-phone.png.asset.json";
 import bizAnaPastry from "@/assets/biz-ana-pastry.png.asset.json";
 import bizAneals from "@/assets/biz-aneals.png.asset.json";
 import bizAdvancedPrinting from "@/assets/biz-advanced-printing.png.asset.json";
