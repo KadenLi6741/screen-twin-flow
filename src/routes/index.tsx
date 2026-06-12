@@ -7,13 +7,12 @@ import hero2 from "@/assets/hero-2.jpg";
 import hero3 from "@/assets/hero-3.jpg";
 import creator from "@/assets/creator.jpg";
 import listening from "@/assets/listening.png";
-import track1 from "@/assets/track-1.jpg";
-import track2 from "@/assets/track-2.jpg";
-import track3 from "@/assets/track-3.jpg";
-import track4 from "@/assets/track-4.jpg";
-import track5 from "@/assets/track-5.jpg";
-import track6 from "@/assets/track-6.jpg";
-import track7 from "@/assets/track-7.jpg";
+import bizAnaPastry from "@/assets/biz-ana-pastry.png.asset.json";
+import bizAneals from "@/assets/biz-aneals.png.asset.json";
+import bizAdvancedPrinting from "@/assets/biz-advanced-printing.png.asset.json";
+import bizAlign from "@/assets/biz-align.png.asset.json";
+import bizAcuvega from "@/assets/biz-acuvega.png.asset.json";
+import bizArnold from "@/assets/biz-arnold.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -49,16 +48,12 @@ const slides = [
 ];
 
 const trending = [
-  { img: track1, title: "Ana Pastry", artist: "26 Church St S" },
-  { img: track2, title: "Aneal's Taste of the Islands", artist: "10220 Yonge St" },
-  { img: track3, title: "Advanced Printing", artist: "10330 Yonge St" },
-  { img: track4, title: "Align Health & Wellness", artist: "22 Richmond St" },
-  { img: track5, title: "Acuvega Wellness Center", artist: "207-22 Richmond St" },
-  { img: track6, title: "Arnold Crescent Animal Hospital", artist: "26 Arnold Cres" },
-  { img: track7, title: "Empire Fadez", artist: "13085 Yonge St" },
-  { img: track1, title: "On The Dance Floor Creative Designs Inc.", artist: "10235 Yonge St" },
-  { img: track2, title: "C17media", artist: "30 West Beaver Creek Rd Unit 12" },
-  { img: track3, title: "Caliber Environmental Construction Services Inc.", artist: "636 Edward Ave Building B, Unit 7" },
+  { img: bizAnaPastry.url, title: "Ana Pastry", artist: "26 Church St S" },
+  { img: bizAneals.url, title: "Aneal's Taste of the Islands", artist: "10220 Yonge St" },
+  { img: bizAdvancedPrinting.url, title: "Advanced Printing", artist: "10330 Yonge St" },
+  { img: bizAlign.url, title: "Align Health & Wellness", artist: "22 Richmond St" },
+  { img: bizAcuvega.url, title: "Acuvega Wellness Center", artist: "207-22 Richmond St" },
+  { img: bizArnold.url, title: "Arnold Crescent Animal Hospital", artist: "26 Arnold Cres" },
 ];
 
 function Index() {
