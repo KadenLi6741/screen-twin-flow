@@ -148,7 +148,7 @@ function Index() {
                   {current.title[0]}<br />{current.title[1]}
                 </h1>
                 <p className="mt-5 max-w-lg text-sm leading-relaxed text-primary/85 sm:text-base">
-                  Discover the world's largest music library, with over 4X the catalog of every major platform: every chart topper you know, plus demos, secret tracks, remixes, and DJ sets you can't find anywhere else.
+                  Discover your community’s largest collection of local businesses: popular spots you already know, plus hidden gems, family-owned shops, exclusive deals, and services you won’t find on major platforms.
                 </p>
                 <div className="mt-7 flex flex-wrap gap-3">
                   <button className="rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground transition hover:scale-[1.02]">Upload</button>
@@ -204,7 +204,7 @@ function Index() {
 
       {/* Trending — sliding right-to-left */}
       <section className="mt-20 overflow-hidden">
-        <h2 className="mb-8 text-center font-display text-2xl tracking-wide">Hear what's trending</h2>
+        <h2 className="mb-8 text-center font-display text-2xl tracking-wide">See What's In Your Area</h2>
         <div className="group relative">
           <motion.div
             className="flex w-max gap-5 px-6"
@@ -226,7 +226,7 @@ function Index() {
           </motion.div>
         </div>
         <div className="mt-10 text-center">
-          <button className="rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground transition hover:scale-[1.02]">Explore trending playlists</button>
+          <button className="rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground transition hover:scale-[1.02]">Explore small buisnesses</button>
         </div>
       </section>
 
@@ -239,14 +239,14 @@ function Index() {
           transition={{ duration: 0.7 }}
         >
           <h2 className="font-display text-5xl uppercase leading-[0.95] tracking-tight sm:text-6xl">
-            Never stop<br />listening
+            NEVER STOP<br />DISCOVERING
           </h2>
           <div className="mt-8 flex items-center gap-5">
             <div className="grid h-28 w-28 place-items-center rounded-md bg-primary p-2">
               <QrPlaceholder />
             </div>
             <p className="max-w-xs text-sm text-muted-foreground">
-              Scan to grab the app. Your library, your queue, your scene — wherever you go.
+              Scan to grab the app. Unlimited discounts, new places, your choice — wherever you go.
             </p>
           </div>
         </motion.div>
@@ -279,10 +279,10 @@ function Index() {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
           <h2 className="font-display text-5xl uppercase leading-[0.95] tracking-tight sm:text-6xl">
-            Calling all<br />creators
+            CALLING ALL<br />SMALL BUISNESSES
           </h2>
           <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground">
-            Build a home for your sound. Connect with fans directly, share your sound with other artists, and grow your audience. What are you waiting for?
+            Discover hidden local businesses, connect directly with owners, and support the communities around you. Explore authentic products, services, and experiences—all in one place.
           </p>
           <button className="mt-7 rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground transition hover:scale-[1.02]">
             Find out more
@@ -297,7 +297,7 @@ function Index() {
             <a key={i} href="#" className="transition hover:text-foreground"><Icon size={18} /></a>
           ))}
         </div>
-        <p className="mt-8 text-center text-xs text-muted-foreground">© {new Date().getFullYear()} Soundwave. All rights reserved.</p>
+        <p className="mt-8 text-center text-xs text-muted-foreground">© {new Date().getFullYear()} LOCALY. All rights reserved.</p>
       </footer>
     </div>
   );
