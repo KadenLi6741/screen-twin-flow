@@ -122,7 +122,7 @@ function Index() {
           {/* Nav */}
           <div className="relative z-10 flex items-center justify-between px-6 py-5 sm:px-10">
             <a href="#" className="flex items-center gap-2 text-primary">
-              <Cloud className="h-7 w-7 fill-primary" strokeWidth={1.5} />
+              <MapPin className="h-7 w-7 fill-primary" strokeWidth={1.5} />
               <span className="font-display text-xl tracking-wide">Localy</span>
             </a>
             <nav className="flex items-center gap-2 text-sm font-medium">
