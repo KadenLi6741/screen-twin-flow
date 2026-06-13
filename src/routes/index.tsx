@@ -5,7 +5,7 @@ import { Search, Upload, Play, X, Twitter, Music2, Youtube, Facebook, Instagram,
 import hero1 from "@/assets/hero-food.png.asset.json";
 import hero2 from "@/assets/hero-restaurant.png.asset.json";
 import hero3 from "@/assets/hero-flowers.png.asset.json";
-import creator from "@/assets/creator.jpg";
+import creator from "@/assets/creator-dining.jpg.asset.json";
 import listening from "@/assets/listening-phone-v2.png.asset.json";
 import bizAnaPastry from "@/assets/biz-ana-pastry.png.asset.json";
 import bizAneals from "@/assets/biz-aneals.png.asset.json";
@@ -271,7 +271,7 @@ function Index() {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           className="overflow-hidden rounded-md"
         >
-          <img src={creator} alt="Artist in studio" loading="lazy" className="aspect-[4/3] w-full object-cover" />
+          <img src={creator.url} alt="Friends dining at a local restaurant" loading="lazy" className="aspect-[4/3] w-full object-cover" />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, x: 60 }}
