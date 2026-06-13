@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Search, Upload, Play, X, Twitter, Music2, Youtube, Facebook, Instagram, Cloud } from "lucide-react";
+import { Search, Upload, Play, X, Twitter, Music2, Youtube, Facebook, Instagram, MapPin } from "lucide-react";
 import hero1 from "@/assets/hero-food.png.asset.json";
 import hero2 from "@/assets/hero-restaurant.png.asset.json";
 import hero3 from "@/assets/hero-flowers.png.asset.json";
